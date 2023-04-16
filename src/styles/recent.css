@@ -1,0 +1,10 @@
+.recent {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.recent__contacts {
+    display: flex;
+    gap: 30px;
+}

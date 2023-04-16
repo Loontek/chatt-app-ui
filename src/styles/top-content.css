@@ -1,0 +1,12 @@
+.top-content {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.top-content__search {
+    margin-top: 27px;
+}
+
+.top-content__recent {
+    margin-top: 9px;
+}

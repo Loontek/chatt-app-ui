@@ -1,13 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat App UI</title>
-  </head>
-  <body>
-    
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+		<title>Chat App UI</title>
+	</head>
+	<body>
+    <div class="phone-screen">
+		<div class="phone-screen__top-content top-content">
+			<div class="wrapper">
+				<div class="status-bar">
+					<div class="status-bar__reception">
+						<img src="/assets/img/reception.svg" alt="Network link">
+						<span>Service</span>
+						<span>LTE</span>
+					</div>
+					<span class="status-bar__time">19:02</span>
+					<img class="status-bar__battery" src="/assets/img/battery.svg" alt="battery level">
+				</div>
+				<div class="search top-content__search">
+					<h2 class="search__title">
+						Messages
+					</h2>
+					<button class="search__button">
+						<img src="/assets/img/search.svg" alt="Search" class="search__img">
+					</button>
+				</div>
+				<div class="recent top-content__recent">
+					<h3 class="recent__title">
+						Resent
+					</h3>
+					<div class="recent__contacts">
+						<figure class="contact">
+							<img src="/assets/img/avatar1.jpg" alt="Barry" class="contact__avatar">
+							<figcaption class="contact__name">Barry</figcaption>
+						</figure>
+						<figure class="contact">
+							<img src="/assets/img/avatar2.jpg" alt="Perez" class="contact__avatar">
+							<figcaption class="contact__name">Perez</figcaption>
+						</figure>
+						<figure class="contact">
+							<img src="/assets/img/avatar3.jpg" alt="Alvin" class="contact__avatar">
+							<figcaption class="contact__name">Alvin</figcaption>
+						</figure>
+						<figure class="contact">
+							<img src="/assets/img/avatar4.jpg" alt="Dan" class="contact__avatar">
+							<figcaption class="contact__name">Dan</figcaption>
+						</figure>
+						<figure class="contact">
+							<img src="/assets/img/avatar5.jpg" alt="Frank" class="contact__avatar">
+							<figcaption class="contact__name">Frank</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="phone-screen__bottom-content chats">
+			<div class="wrapper chats__wrapper">
+				<article class="chat">
+					<img src="/assets/img/image1.jpg" alt="Danny Hopkins" class="chat__avatar">
+					<div class="chat__description">
+						<h4 class="chat__name">
+							Danny Hopkins
+						</h4>
+						<span class="chat__last-message">dannylove@gmail.com</span>
+					</div>
+					<span class="chat__date">08:43</span>
+				</article>
+				<article class="chat">
+					<img src="/assets/img/image2.jpg" alt="Bobby Langford" class="chat__avatar">
+					<div class="chat__description">
+						<h4 class="chat__name">
+							Bobby Langford
+						</h4>
+						<span class="chat__last-message">
+							Will do, super, thank you
+							<img src="/assets/img/smile.svg" alt="Smile emoji">
+							<img src="/assets/img/heart.svg" alt="Heart emoji">
+						</span>
+					</div>
+					<span class="chat__date">Tue</span>
+				</article>
+				<article class="chat">
+					<img src="/assets/img/image3.jpg" alt="William Wiles" class="chat__avatar">
+					<div class="chat__description">
+						<h4 class="chat__name">
+							William Wiles
+						</h4>
+						<span class="chat__last-message">Uploaded file.</span>
+					</div>
+					<span class="chat__date">Sun</span>
+				</article>
+				<article class="chat">
+					<img src="/assets/img/image4.jpg" alt="James Edelen" class="chat__avatar">
+					<div class="chat__description">
+						<h4 class="chat__name">
+							James Edelen
+						</h4>
+						<span class="chat__last-message">Here is another tutorial, if you...</span>
+					</div>
+					<span class="chat__date">24 Mar</span>
+				</article>
+				<article class="chat">
+					<img src="/assets/img/image5.jpg" alt="Jose Farmer" class="chat__avatar">
+					<div class="chat__description">
+						<h4 class="chat__name">
+							Jose Farmer
+						</h4>
+						<span class="chat__last-message">
+							<img src="/assets/img/laugh.svg" alt="Laugh emoji">
+						</span>
+					</div>
+					<span class="chat__date">18 Mar</span>
+				</article>
+				<article class="chat">
+					<img src="/assets/img/image6.jpg" alt="Frank Marten" class="chat__avatar">
+					<div class="chat__description">
+						<h4 class="chat__name">
+							Frank Marten
+						</h4>
+						<span class="chat__last-message">no pracujemy z domu przez 5 ...</span>
+					</div>
+					<span class="chat__date">01 Feb</span>
+				</article>
+				<article class="chat">
+					<img src="/assets/img/image7.jpg" alt="Marzena Klasa" class="chat__avatar">
+					<div class="chat__description">
+						<h4 class="chat__name">
+							Marzena Klasa
+						</h4>
+						<span class="chat__last-message">potem sie zobaczy</span>
+					</div>
+					<span class="chat__date">01 Feb</span>
+				</article>
+			</div>
+		</div>
+	</div>
+    <div class="phone-screen">
+		<div class="phone-screen__top-content top-content">
+			<div class="wrapper">
+				<div class="status-bar">
+					<div class="status-bar__reception">
+						<img src="/assets/img/reception.svg" alt="Network link">
+						<span>Service</span>
+						<span>LTE</span>
+					</div>
+					<span class="status-bar__time">19:02</span>
+					<img class="status-bar__battery" src="/assets/img/battery.svg" alt="battery level">
+				</div>
+				<div class="search top-content__search">
+					<div class="search__chat-name">
+						<img class="search__avatar" src="/assets/img/image1.jpg" alt="Danny Hopkins">
+						<h2 class="search__title">
+							Danny Hopkins
+						</h2>
+					</div>
+					<button class="search__button">
+						<img src="/assets/img/search.svg" alt="Search" class="search__img">
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="phone-screen__bottom-content full-chat">
+			<div class="wrapper full-chat__wrapper">
+				<div class="messages">
+					<span class="messages__date">1 feb 12:00</span>
+					<p class="message message_left">
+						I commented on Figma, I want to add <br/> some fancy icons. Do you have any icon <br/> set?
+					</p>
+					<p class="message message_right">
+						I am in a process of designing some. <br/> When do you need them?
+					</p>
+					<p class="message message_left">
+						Next month?
+					</p>
+				</div>
+				<div class="messages">
+					<span class="messages__date">08:12</span>
+					<p class="message message_right">
+						I am almost finish. Please give me your <br/> email, I will ZIP them and send you as son <br/> as im finish.
+					</p>
+					<p class="message message_right">
+						?
+					</p>
+				</div>
+				<div class="messages">
+					<span class="messages__date">1 feb 12:00</span>
+					<p class="message message_left">
+						maciej.kowalski@email.com
+					</p>
+					<p class="message message_right">
+						<img src="/assets/img/like.svg" alt="Like emoji">
+					</p>
+				</div>
+				<div class="full-chat__input message-input">
+					<button class="message-input__add-image" type="button">
+						<img src="/assets/img/camera.svg" alt="camera">
+					</button>
+					<input type="text" class="message-input__input" placeholder="Message">
+					<button class="message-input__send" type="button">
+						<img src="/assets/img/send.svg" alt="Send">
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
     <script type="module" src="/src/main.js"></script>
-  </body>
+	</body>
 </html>

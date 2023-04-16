@@ -1,0 +1,21 @@
+.message {
+    padding: 5px 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-light);
+    border-radius: 20px;
+}
+
+.message_left {
+    align-self: flex-start;
+    background: var(--color-chat-left);
+    text-align: left;
+}
+
+.message_right {
+    align-self: flex-end;
+    background: var(--color-chat-right);
+    text-align: right;
+}

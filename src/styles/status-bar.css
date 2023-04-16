@@ -1,0 +1,25 @@
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    color: var(--color-light);
+    font-size: 12px;
+}
+
+.status-bar__reception {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.status-bar__time {
+    width: 25%;
+}
+
+.status-bar__reception img {
+    max-width: 17px;
+}
+
+.status-bar__battery {
+    min-width: 28px;
+}
