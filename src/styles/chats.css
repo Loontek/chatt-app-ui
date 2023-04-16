@@ -1,0 +1,11 @@
+.chats {
+    padding: 50px 0;
+    background: var(--color-additional);
+    border-radius: 50px;
+}
+
+.chats__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

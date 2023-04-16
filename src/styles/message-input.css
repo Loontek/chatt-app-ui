@@ -1,0 +1,48 @@
+.message-input {
+    width: 100%;
+    background: var(--color-message-input);
+    border-radius: 25px;
+    display: flex;
+    padding: 6px 15px 6px 8px;
+    gap: 14px;
+}
+
+.message-input__add-image {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9398A7;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.message-input__input {
+    flex-grow: 1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--color-light);
+}
+
+.message-input__input::placeholder {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.message-input__send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: auto;
+}

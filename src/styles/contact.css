@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.contact__avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.contact__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--color-light);
+}
